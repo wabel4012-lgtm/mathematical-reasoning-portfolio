@@ -1,32 +1,39 @@
-# Probability & Statistics
+# Probability & Statistical Reasoning
 
-## 1. Conditional Probability Example
+## 1. Conditional Probability
 
-### Problem
-30% of users click an ad. 10% of those who click make a purchase.
+P(A) = 0.3  
+P(B|A) = 0.1  
 
-What is probability of purchase?
-
-### Solution
-P(purchase) = P(click) × P(purchase | click)
-
-= 0.30 × 0.10  
-= 0.03 (3%)
+### Result
+P(B) = 0.03
 
 ---
 
-## 2. Bayes Thinking Example
+## 2. Bayes Insight
 
-A test is 95% accurate. Disease prevalence is 1%.
+Even highly accurate systems can fail under class imbalance.
 
-This shows that even accurate tests can produce false positives in low-prevalence conditions.
+If:
+- Rare event = 1%
+- High accuracy test = 95%
+
+False positives can dominate results.
 
 ---
 
-## 3. Expected Value Example
+## 3. Expected Value
 
-If payoff is:
-- $100 with probability 0.2
-- $0 otherwise
+Outcome:
+- 100 with probability 0.2
+- 0 otherwise
 
-Expected value = 100 × 0.2 = 20
+EV = 20
+
+---
+
+## 4. Independence Check
+
+If P(A ∩ B) = P(A)P(B), events are independent.
+
+Otherwise, dependency exists.
