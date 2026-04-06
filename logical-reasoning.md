@@ -1,30 +1,28 @@
-# Logical Reasoning
+# Logic & Discrete Reasoning
 
-## 1. Deduction Problem
+## 1. Logical Deduction
 
-### Statement
 All A are B. Some B are C.
 
-Does it imply all A are C?
-
-### Answer
-No.
-
-### Reason
-The overlap between B and C is partial, not universal.
-
----
-
-## 2. Edge Case Reasoning
-
-### Statement
-If all mammals are warm-blooded, and whales are mammals...
-
 ### Conclusion
-Whales are warm-blooded.
+Cannot conclude all A are C.
 
 ---
 
-## 3. Contradiction Example
+## 2. Contradiction Proof
 
-If a statement leads to both true and false outcomes, it is invalid under classical logic.
+Assume statement is both true and false → contradiction arises → statement invalid.
+
+---
+
+## 3. Edge Case Reasoning
+
+Statements must be evaluated only on given premises, not assumptions.
+
+---
+
+## 4. Set Logic
+
+If A ⊆ B and B ⊆ C, then:
+
+A ⊆ C ✔
