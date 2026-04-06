@@ -1,0 +1,56 @@
+# Algebra & Inequalities
+
+## 1. Quadratic Equation Analysis
+
+Solve:
+x² − 5x + 6 = 0
+
+### Solution
+Factor:
+(x − 2)(x − 3) = 0
+
+### Roots:
+x = 2, 3
+
+---
+
+## 2. Inequality Problem (AM-GM)
+
+### Problem
+For x, y > 0, prove:
+x + y ≥ 2√(xy)
+
+### Proof
+By AM-GM inequality:
+
+(x + y)/2 ≥ √(xy)
+
+Multiply both sides by 2:
+
+x + y ≥ 2√(xy) ✔
+
+---
+
+## 3. Constraint-Based Algebra
+
+### Problem
+If x + y = 10, maximize xy.
+
+### Solution
+At symmetry:
+x = y = 5
+
+Maximum product:
+xy = 25
+
+---
+
+## 4. Functional Reasoning
+
+If f(x) = x² − 4x + 4:
+
+Rewrite:
+f(x) = (x − 2)²
+
+### Insight
+Minimum value is 0 at x = 2
