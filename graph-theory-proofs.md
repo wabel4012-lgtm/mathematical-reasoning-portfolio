@@ -1,24 +1,25 @@
-# Graph Theory & Proofs
+# Discrete Mathematics & Graph Theory
 
-## 1. Proof: A Tree with n Nodes Has n−1 Edges
+## 1. Tree Edge Property (Formal Proof)
 
 ### Statement
-Every connected acyclic graph (tree) with n nodes has exactly n−1 edges.
+Every tree with n vertices has exactly n − 1 edges.
 
-### Proof (Induction)
+### Proof (Strong Induction)
 
-**Base Case:**
-For n = 1, a single node has 0 edges → 1 - 1 = 0 ✔
+**Base Case (n = 1):**
+A single vertex has 0 edges → 1 − 1 = 0 ✔
 
-**Inductive Step:**
-Assume true for n = k.
+**Inductive Hypothesis:**
+Assume true for all trees with k vertices.
 
-A tree with k+1 nodes can be formed by adding one node and connecting it with one edge to an existing node.
+**Step to k+1:**
+Adding a new vertex to a tree requires exactly one edge to maintain connectivity without forming a cycle.
 
 Thus:
-Edges = (k - 1) + 1 = k
+Edges = (k − 1) + 1 = k
 
-So for k+1 nodes, edges = (k+1) - 1 ✔
+So for k+1 vertices → edges = (k+1) − 1 ✔
 
 ### Conclusion
 True for all n ≥ 1.
@@ -27,11 +28,33 @@ True for all n ≥ 1.
 
 ## 2. Handshaking Lemma
 
-### Statement
-Sum of degrees of all vertices = 2 × number of edges.
+In any undirected graph:
+
+∑ deg(v) = 2E
 
 ### Reasoning
-Each edge contributes exactly 2 to total degree count.
+Each edge contributes exactly two degree counts (one per endpoint).
 
-Thus:
-∑deg(v) = 2E ✔
+---
+
+## 3. Combinatorics Problem
+
+### Problem
+How many subsets exist for a set with n elements?
+
+### Solution
+Each element has 2 choices (include/exclude):
+
+Total subsets = 2^n
+
+---
+
+## 4. Recurrence Relation Example
+
+T(n) = T(n−1) + n, T(1) = 1
+
+### Solution
+Expanding:
+
+T(n) = 1 + 2 + 3 + ... + n  
+T(n) = n(n+1)/2
