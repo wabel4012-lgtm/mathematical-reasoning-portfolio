@@ -1,35 +1,49 @@
-# Mathematical Reasoning Portfolio
+# Mathematical Reasoning Portfolio (Advanced Level)
 
 ## Overview
-This repository demonstrates my structured mathematical thinking through proofs, probability reasoning, optimization problems, and logical deduction.
+This repository demonstrates advanced mathematical reasoning skills across discrete mathematics, algebra, probability, optimization, and formal logic.
 
-The focus is on clarity, rigor, and step-by-step reasoning rather than memorized formulas.
-
----
-
-## Core Skills Demonstrated
-
-- Mathematical proof writing (Discrete Mathematics)
-- Probability and conditional reasoning
-- Optimization and constraint-based thinking
-- Logical deduction and structured reasoning
-- Problem decomposition and step-by-step solutions
+The focus is on rigorous problem-solving, structured proofs, and multi-step reasoning rather than memorization.
 
 ---
 
-## Purpose
+## Core Competencies
 
-This portfolio is designed to show my ability to:
-- Think rigorously through abstract problems
-- Break down complex problems into logical steps
-- Apply mathematical reasoning to structured scenarios
-- Communicate solutions clearly and systematically
+### Discrete Mathematics
+- Graph theory fundamentals and proofs
+- Combinatorics and counting principles
+- Recurrence relations and induction
+
+### Algebra
+- Inequalities and algebraic manipulation
+- Equation solving under constraints
+- Functional reasoning and transformations
+
+### Probability & Statistics
+- Conditional probability and Bayes reasoning
+- Expected value and stochastic reasoning
+
+### Optimization & Logic
+- Constraint-based optimization problems
+- Logical deduction and proof validation
+- Edge-case reasoning
+
+---
+
+## Purpose of This Portfolio
+
+This work is designed to demonstrate:
+- Formal mathematical thinking
+- Ability to construct valid proofs
+- Strong analytical reasoning under constraints
+- Clear communication of mathematical ideas
 
 ---
 
 ## Contents
 
-- Graph Theory & Proofs
-- Probability & Statistics Problems
-- Optimization Models
-- Logical Reasoning Cases
+- Discrete Mathematics & Graph Theory
+- Algebra & Inequality Problems
+- Probability & Statistical Reasoning
+- Optimization Problems
+- Logical Reasoning & Edge Cases
