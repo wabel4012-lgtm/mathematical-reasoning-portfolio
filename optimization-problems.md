@@ -1,30 +1,34 @@
 # Optimization Problems
 
-## 1. Cost Minimization Problem
-
-### Problem
-Minimize delivery cost under constraints of distance and capacity.
-
-### Approach
-- Define cost function C(x)
-- Identify constraints
-- Solve using feasible region analysis
-
----
-
-## 2. Linear Optimization Example
+## 1. Linear Optimization
 
 Maximize:
 P = 3x + 2y
 
-Subject to:
+Constraints:
 x + y ≤ 10  
 x ≥ 0, y ≥ 0
 
 ### Solution Strategy
-Evaluate corner points of feasible region.
+Evaluate vertices of feasible region:
+- (10,0)
+- (0,10)
+- (5,5)
+
+Best result:
+x = 10, y = 0 → P = 30
 
 ---
 
-## Insight
-Optimization problems require balancing constraints while maximizing or minimizing objective functions.
+## 2. Resource Allocation Problem
+
+Minimize cost:
+C = ax + by
+
+Subject to:
+Demand constraints and capacity limits
+
+### Approach
+- Define objective function
+- Apply boundary evaluation
+- Identify optimal feasible point
